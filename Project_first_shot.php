@@ -12,70 +12,99 @@ $group_members = [
         "name" => "Okochi-Thompson Obarido", 
         "courses" => ["CSC101 - Intro to CS", "MTH101 - General Math"],
         "gpa_data" => ["points" => 45, "units" => 10], // 4.5 GPA
-        "blood" => "O+", "state" => "Lagos", "phone" => "08012345678", "hobbies" => "Coding, Reading"
+        "blood" => "O+", 
+        "State" => "Lagos", 
+        "phone" => "08121697486", 
+        "hobbies" => "Watching Anime, Reading Manhwa, and Learning about cars"        
     ],
     [
         "matric" => "22/0133", 
         "name" => "Okechukwu Chiemerie Victor", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "B+", 
+        "State" => "Lagos", 
+        "phone" => "07069932995", 
+        "hobbies" => "Making Money"
     ],
     [
         "matric" => "23/0121", 
         "name" => "Okeowo Ameenat Mofeoluwa", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "O-", 
+        "State" => "Ogun", 
+        "phone" => "08116997469", 
+        "hobbies" => "Reading, Watching Shows, and Sleeping"
     ],
     [
         "matric" => "22/0142", 
         "name" => "Okoh Perfection Oheholume", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "O+", 
+        "State" => "Benue", 
+        "phone" => "08165594694", 
+        "hobbies" => "Watching Movies"
     ],
     [
         "matric" => "22/0314", 
         "name" => "Okonkwo Alexis Chimdalu", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "A-", 
+        "State" => "Abuja", 
+        "phone" => "08087654321", 
+        "hobbies" => "Gaming, Football"
     ],
     [
         "matric" => "22/0039", 
         "name" => "Okorocha Conrad Maduawuchi", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "O-", 
+        "State" => "Imo", 
+        "phone" => "08147428427", 
+        "hobbies" => "Programming"
     ],
     [
         "matric" => "22/0320", 
         "name" => "Okoye Maxwell Tagbo", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "O+", 
+        "State" => "Anambra", 
+        "phone" => "07066995971", 
+        "hobbies" => "Music"
     ],
     [
         "matric" => "22/0099", 
         "name" => "Okpala Kingsley Chibundu", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "A-", 
+        "State" => "Abuja", 
+        "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
         "matric" => "22/0100", 
         "name" => "Okoye Sunday Chisom", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
+        "blood" => "O+", 
+        "State" => "Anambra", 
+        "phone" => "07015950116", 
+        "hobbies" => "Playing Chess and poker"
     ],
     [
         "matric" => "22/0173", 
         "name" => "Okwuokwu Otito Davies", 
         "courses" => ["GST101 - Use of English", "CSC102 - Intro to Web"],
         "gpa_data" => ["points" => 38, "units" => 10], // 3.8 GPA
-        "blood" => "B+", "state" => "Rivers", "phone" => "08055555555", "hobbies" => "Music, Traveling"
+        "blood" => "B+", 
+        "State" => "Rivers", 
+        "phone" => "08055555555", 
+        "hobbies" => "Music, Traveling"
     ]
 ];
 
@@ -229,7 +258,7 @@ for ($i = 1; $i <= 50; $i++) {
                     // Requirement: Name, Blood, State, Phone, Hobbies
                     echo "<h3>{$member['name']}</h3>";
                     echo "<p><span class='label'>Blood Group:</span> {$member['blood']}</p>";
-                    echo "<p><span class='label'>State of Origin:</span> {$member['state']}</p>";
+                    echo "<p><span class='label'>State of Origin:</span> {$member['State']}</p>";
                     echo "<p><span class='label'>Phone Number:</span> {$member['phone']}</p>";
                     echo "<p><span class='label'>Hobbies:</span> {$member['hobbies']}</p>";
                     echo "</div>";
