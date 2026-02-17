@@ -2,7 +2,8 @@
 This is the first SENG 412 Group Project
 
 Project Description:
-1.Create a mini-site with a beautiful Home for the group. The page has four relative links described as follows
+
+The page has four relative links described as follows
 
 The Home Page is a page that has the list of the members of the group and the courses(Course Code
 and Title) registered for this semester formatted in this manner
