@@ -15,64 +15,64 @@ $group_members = [
         "blood" => "O+", "state" => "Lagos", "phone" => "08012345678", "hobbies" => "Coding, Reading"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "22/0133", 
+        "name" => "Okechukwu Chiemerie Victor", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "23/0121", 
+        "name" => "Okeowo Ameenat Mofeoluwa", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "22/0142", 
+        "name" => "Okoh Perfection Oheholume", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "22/0314", 
+        "name" => "Okonkwo Alexis Chimdalu", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "22/0039", 
+        "name" => "Okorocha Conrad Maduawuchi", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "22/0320", 
+        "name" => "Okoye Maxwell Tagbo", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "22/0099", 
+        "name" => "Okpala Kingsley Chibundu", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT102", 
-        "name" => "Bob Smith", 
+        "matric" => "22/0100", 
+        "name" => "Okoye Sunday Chisom", 
         "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
         "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
         "blood" => "A-", "state" => "Abuja", "phone" => "08087654321", "hobbies" => "Gaming, Football"
     ],
     [
-        "matric" => "MAT103", 
-        "name" => "Charlie Brown", 
+        "matric" => "22/0173", 
+        "name" => "Okwuokwu Otito Davies", 
         "courses" => ["GST101 - Use of English", "CSC102 - Intro to Web"],
         "gpa_data" => ["points" => 38, "units" => 10], // 3.8 GPA
         "blood" => "B+", "state" => "Rivers", "phone" => "08055555555", "hobbies" => "Music, Traveling"
