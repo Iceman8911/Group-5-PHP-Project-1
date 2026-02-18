@@ -1,7 +1,7 @@
 <?php
 // We use a query parameter 'page' to tell PHP which content to load.
 // If 'page' is not set in the URL, we default to 'home'.
-$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+$page = !!$_GET["page"] ? $_GET["page"] : "home";
 
 // --- DATA & LOGIC SECTION ---
 
