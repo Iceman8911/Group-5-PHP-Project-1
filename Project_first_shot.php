@@ -1,5 +1,5 @@
 <?php
-// We use a query parameter 'page' to tell PHP which content to load.
+// We use a search query parameter 'page' to tell PHP which content to load.
 // If 'page' is not set in the URL, we default to 'home'.
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
@@ -142,7 +142,6 @@ for ($i = 1; $i <= 50; $i++) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Project PHP</title>
     <style>
-        /* Basic CSS to make the site look "beautiful" as requested */
         body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
         .nav-bar { background-color: #333; overflow: hidden; border-radius: 5px; margin-bottom: 20px; }
         .nav-bar a { float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
@@ -273,3 +272,4 @@ for ($i = 1; $i <= 50; $i++) {
 
 </body>
 </html>
+
