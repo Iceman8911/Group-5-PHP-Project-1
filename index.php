@@ -7,131 +7,134 @@ $page = !!$_GET["page"] ? $_GET["page"] : "home";
 
 // 1. Group Members Data (Used for Home, GPA, and Details tabs)
 $group_members = [
-    [
-        "matric" => "22/0240", 
-        "name" => "Okochi-Thompson Obarido", 
-        "courses" => ["CSC101 - Intro to CS", "MTH101 - General Math"],
-        "gpa_data" => ["points" => 45, "units" => 10], // 4.5 GPA
-        "blood" => "O+", 
-        "State" => "Lagos", 
-        "phone" => "08121697486", 
-        "hobbies" => "Watching Anime, Reading Manhwa, and Learning about cars"        
-    ],
-    [
-        "matric" => "22/0133", 
-        "name" => "Okechukwu Chiemerie Victor", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "B+", 
-        "State" => "Lagos", 
-        "phone" => "07069932995", 
-        "hobbies" => "Making Money"
-    ],
-    [
-        "matric" => "23/0121", 
-        "name" => "Okeowo Ameenat Mofeoluwa", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "O-", 
-        "State" => "Ogun", 
-        "phone" => "08116997469", 
-        "hobbies" => "Reading, Watching Shows, and Sleeping"
-    ],
-    [
-        "matric" => "22/0142", 
-        "name" => "Okoh Perfection Oheholume", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "O+", 
-        "State" => "Benue", 
-        "phone" => "08165594694", 
-        "hobbies" => "Watching Movies"
-    ],
-    [
-        "matric" => "22/0314", 
-        "name" => "Okonkwo Alexis Chimdalu", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", 
-        "State" => "Abuja", 
-        "phone" => "08087654321", 
-        "hobbies" => "Gaming, Football"
-    ],
-    [
-        "matric" => "22/0039", 
-        "name" => "Okorocha Conrad Maduawuchi", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "O-", 
-        "State" => "Imo", 
-        "phone" => "08147428427", 
-        "hobbies" => "Programming"
-    ],
-    [
-        "matric" => "22/0320", 
-        "name" => "Okoye Maxwell Tagbo", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "O+", 
-        "State" => "Anambra", 
-        "phone" => "07066995971", 
-        "hobbies" => "Music"
-    ],
-    [
-        "matric" => "22/0099", 
-        "name" => "Okpala Kingsley Chibundu", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "A-", 
-        "State" => "Abuja", 
-        "phone" => "08087654321", "hobbies" => "Gaming, Football"
-    ],
-    [
-        "matric" => "22/0100", 
-        "name" => "Okoye Sunday Chisom", 
-        "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
-        "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
-        "blood" => "O+", 
-        "State" => "Anambra", 
-        "phone" => "07015950116", 
-        "hobbies" => "Playing Chess and poker"
-    ],
-    [
-        "matric" => "22/0173", 
-        "name" => "Okwuokwu Otito Davies", 
-        "courses" => ["GST101 - Use of English", "CSC102 - Intro to Web"],
-        "gpa_data" => ["points" => 38, "units" => 10], // 3.8 GPA
-        "blood" => "B+", 
-        "State" => "Rivers", 
-        "phone" => "08055555555", 
-        "hobbies" => "Music, Traveling"
-    ]
+  [
+    "matric" => "22/0240",
+    "name" => "Okochi-Thompson Obarido",
+    "courses" => ["CSC101 - Intro to CS", "MTH101 - General Math"],
+    "gpa_data" => ["points" => 45, "units" => 10], // 4.5 GPA
+    "blood" => "O+",
+    "State" => "Lagos",
+    "phone" => "08121697486",
+    "hobbies" => "Watching Anime, Reading Manhwa, and Learning about cars",
+  ],
+  [
+    "matric" => "22/0133",
+    "name" => "Okechukwu Chiemerie Victor",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "B+",
+    "State" => "Lagos",
+    "phone" => "07069932995",
+    "hobbies" => "Making Money",
+  ],
+  [
+    "matric" => "23/0121",
+    "name" => "Okeowo Ameenat Mofeoluwa",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "O-",
+    "State" => "Ogun",
+    "phone" => "08116997469",
+    "hobbies" => "Reading, Watching Shows, and Sleeping",
+  ],
+  [
+    "matric" => "22/0142",
+    "name" => "Okoh Perfection Oheholume",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "O+",
+    "State" => "Benue",
+    "phone" => "08165594694",
+    "hobbies" => "Watching Movies",
+  ],
+  [
+    "matric" => "22/0314",
+    "name" => "Okonkwo Alexis Chimdalu",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "A-",
+    "State" => "Abuja",
+    "phone" => "08087654321",
+    "hobbies" => "Gaming, Football",
+  ],
+  [
+    "matric" => "22/0039",
+    "name" => "Okorocha Conrad Maduawuchi",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "O-",
+    "State" => "Imo",
+    "phone" => "08147428427",
+    "hobbies" => "Programming",
+  ],
+  [
+    "matric" => "22/0320",
+    "name" => "Okoye Maxwell Tagbo",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "O+",
+    "State" => "Anambra",
+    "phone" => "07066995971",
+    "hobbies" => "Music",
+  ],
+  [
+    "matric" => "22/0099",
+    "name" => "Okpala Kingsley Chibundu",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "A-",
+    "State" => "Abuja",
+    "phone" => "08087654321",
+    "hobbies" => "Gaming, Football",
+  ],
+  [
+    "matric" => "22/0100",
+    "name" => "Okoye Sunday Chisom",
+    "courses" => ["CSC101 - Intro to CS", "PHY101 - General Physics"],
+    "gpa_data" => ["points" => 32, "units" => 10], // 3.2 GPA
+    "blood" => "O+",
+    "State" => "Anambra",
+    "phone" => "07015950116",
+    "hobbies" => "Playing Chess and poker",
+  ],
+  [
+    "matric" => "22/0173",
+    "name" => "Okwuokwu Otito Davies",
+    "courses" => ["GST101 - Use of English", "CSC102 - Intro to Web"],
+    "gpa_data" => ["points" => 38, "units" => 10], // 3.8 GPA
+    "blood" => "B+",
+    "State" => "Rivers",
+    "phone" => "08055555555",
+    "hobbies" => "Music, Traveling",
+  ],
 ];
 
 // 2. Payroll Logic (Generates 50 dummy employees)
 $employees = [];
 for ($i = 1; $i <= 50; $i++) {
-    // Generate random hours and rate for demo purposes
-    $hours = rand(20, 160); 
-    $rate = rand(500, 2000); 
-    $deduction = rand(1000, 5000);
-    
-    // Calculate Gross and Net Pay
-    $gross = $hours * $rate;
-    $net = $gross - $deduction;
-    
-    // If net is negative (deduction too high), reset to 0
-    if ($net < 0) $net = 0;
+  // Generate random hours and rate for demo purposes
+  $hours = rand(20, 160);
+  $rate = rand(500, 2000);
+  $deduction = rand(1000, 5000);
 
-    $employees[] = [
-        "id" => "EMP" . str_pad($i, 3, "0", STR_PAD_LEFT),
-        "name" => "Employee " . $i,
-        "hours" => $hours,
-        "rate" => $rate,
-        "deduction" => $deduction,
-        "gross" => $gross,
-        "net" => $net
-    ];
+  // Calculate Gross and Net Pay
+  $gross = $hours * $rate;
+  $net = $gross - $deduction;
+
+  // If net is negative (deduction too high), reset to 0
+  if ($net < 0) {
+    $net = 0;
+  }
+
+  $employees[] = [
+    "id" => "EMP" . str_pad($i, 3, "0", STR_PAD_LEFT),
+    "name" => "Employee " . $i,
+    "hours" => $hours,
+    "rate" => $rate,
+    "deduction" => $deduction,
+    "gross" => $gross,
+    "net" => $net,
+  ];
 }
 ?>
 
@@ -159,46 +162,52 @@ for ($i = 1; $i <= 50; $i++) {
     </style>
 </head>
 <body>
-
     <div class="nav-bar">
-        <a href="?page=home" class="<?php echo $page == 'home' ? 'active' : ''; ?>">Home</a>
-        <a href="?page=payroll" class="<?php echo $page == 'payroll' ? 'active' : ''; ?>">Payroll</a>
-        <a href="?page=gpa" class="<?php echo $page == 'gpa' ? 'active' : ''; ?>">GPA Calculator</a>
-        <a href="?page=details" class="<?php echo $page == 'details' ? 'active' : ''; ?>">Personal Details</a>
+        <a href="?page=home" class="<?php echo $page == "home"
+          ? "active"
+          : ""; ?>">Home</a>
+        <a href="?page=payroll" class="<?php echo $page == "payroll"
+          ? "active"
+          : ""; ?>">Payroll</a>
+        <a href="?page=gpa" class="<?php echo $page == "gpa"
+          ? "active"
+          : ""; ?>">GPA Calculator</a>
+        <a href="?page=details" class="<?php echo $page == "details"
+          ? "active"
+          : ""; ?>">Personal Details</a>
     </div>
 
     <div class="content">
-        <?php
-        // We use a Switch statement to show different content based on the 'page' variable
-        switch ($page) {
+        <?php // We use a Switch statement to show different content based on the 'page' variable
 
-            // --- TAB 1: HOME PAGE ---
-            case 'home':
-                echo "<h2>Group Members & Courses</h2>";
-                echo "<p>Welcome to our group home page.</p>";
-                
-                foreach ($group_members as $member) {
-                    echo "<div class='card'>";
-                    // Requirement: Matric Number, Name, Courses
-                    echo "<p><span class='label'>Matric Number:</span> {$member['matric']}</p>";
-                    echo "<p><span class='label'>Name of Student:</span> {$member['name']}</p>";
-                    echo "<p><span class='label'>Courses Registered:</span></p>";
-                    echo "<ul>";
-                    foreach ($member['courses'] as $course) {
-                        echo "<li>$course</li>";
-                    }
-                    echo "</ul>";
-                    echo "</div>";
-                }
-                break;
+switch ($page) {
+          // --- TAB 1: HOME PAGE ---
+          case "home":
+            echo "<h2>Group Members & Courses</h2>";
+            echo "<p>Welcome to our group home page.</p>";
 
-            // --- TAB 2: PAYROLL ---
-            case 'payroll':
-                echo "<h2>Company Payroll (50+ Employees)</h2>";
-                echo "<p>Calculated as: Wages = (Hours × Rate) - Deduction</p>";
-                
-                echo "<table>";
-                echo "<thead>
+            foreach ($group_members as $member) {
+              echo "<div class='card'>";
+              // Requirement: Matric Number, Name, Courses
+              echo "<p><span class='label'>Matric Number:</span> {$member["matric"]}</p>";
+              echo "<p><span class='label'>Name of Student:</span> {$member["name"]}</p>";
+              echo "<p><span class='label'>Courses Registered:</span></p>";
+              echo "<ul>";
+              foreach ($member["courses"] as $course) {
+                echo "<li>$course</li>";
+              }
+              echo "</ul>";
+              echo "</div>";
+            }
+            break;
+
+          // --- TAB 2: PAYROLL ---
+          case "payroll":
+            echo "<h2>Company Payroll (50+ Employees)</h2>";
+            echo "<p>Calculated as: Wages = (Hours × Rate) - Deduction</p>";
+
+            echo "<table>";
+            echo "<thead>
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
@@ -209,66 +218,69 @@ for ($i = 1; $i <= 50; $i++) {
                             <th>Net Pay</th>
                         </tr>
                       </thead>";
-                echo "<tbody>";
-                
-                // Requirement: Compute wages and list gross/net pay
-                foreach ($employees as $emp) {
-                    echo "<tr>";
-                    echo "<td>{$emp['id']}</td>";
-                    echo "<td>{$emp['name']}</td>";
-                    echo "<td>{$emp['hours']}</td>";
-                    echo "<td>$" . number_format($emp['rate']) . "</td>";
-                    echo "<td>$" . number_format($emp['deduction']) . "</td>";
-                    echo "<td><strong>$" . number_format($emp['gross']) . "</strong></td>";
-                    echo "<td><strong>$" . number_format($emp['net']) . "</strong></td>";
-                    echo "</tr>";
-                }
-                echo "</tbody>";
-                echo "</table>";
-                break;
+            echo "<tbody>";
 
-            // --- TAB 3: GPA CALCULATOR ---
-            case 'gpa':
-                echo "<h2>1st Semester GPA Results</h2>";
-                echo "<table>";
-                echo "<tr><th>Name</th><th>Total Points</th><th>Total Units</th><th>GPA</th></tr>";
-                
-                foreach ($group_members as $member) {
-                    // Logic: GPA = Total Points / Total Units
-                    $points = $member['gpa_data']['points'];
-                    $units = $member['gpa_data']['units'];
-                    $gpa = ($units > 0) ? ($points / $units) : 0;
-                    
-                    echo "<tr>";
-                    echo "<td>{$member['name']}</td>";
-                    echo "<td>$points</td>";
-                    echo "<td>$units</td>";
-                    echo "<td><strong>" . number_format($gpa, 2) . "</strong></td>";
-                    echo "</tr>";
-                }
-                echo "</table>";
-                break;
+            // Requirement: Compute wages and list gross/net pay
+            foreach ($employees as $emp) {
+              echo "<tr>";
+              echo "<td>{$emp["id"]}</td>";
+              echo "<td>{$emp["name"]}</td>";
+              echo "<td>{$emp["hours"]}</td>";
+              echo "<td>$" . number_format($emp["rate"]) . "</td>";
+              echo "<td>$" . number_format($emp["deduction"]) . "</td>";
+              echo "<td><strong>$" .
+                number_format($emp["gross"]) .
+                "</strong></td>";
+              echo "<td><strong>$" .
+                number_format($emp["net"]) .
+                "</strong></td>";
+              echo "</tr>";
+            }
+            echo "</tbody>";
+            echo "</table>";
+            break;
 
-            // --- TAB 4: PERSONAL DETAILS ---
-            case 'details':
-                echo "<h2>Personal Details</h2>";
-                
-                foreach ($group_members as $member) {
-                    echo "<div class='card'>";
-                    // Requirement: Name, Blood, State, Phone, Hobbies
-                    echo "<h3>{$member['name']}</h3>";
-                    echo "<p><span class='label'>Blood Group:</span> {$member['blood']}</p>";
-                    echo "<p><span class='label'>State of Origin:</span> {$member['State']}</p>";
-                    echo "<p><span class='label'>Phone Number:</span> {$member['phone']}</p>";
-                    echo "<p><span class='label'>Hobbies:</span> {$member['hobbies']}</p>";
-                    echo "</div>";
-                }
-                break;
+          // --- TAB 3: GPA CALCULATOR ---
+          case "gpa":
+            echo "<h2>1st Semester GPA Results</h2>";
+            echo "<table>";
+            echo "<tr><th>Name</th><th>Total Points</th><th>Total Units</th><th>GPA</th></tr>";
 
-            default:
-                echo "<p>Page not found.</p>";
-        }
-        ?>
+            foreach ($group_members as $member) {
+              // Logic: GPA = Total Points / Total Units
+              $points = $member["gpa_data"]["points"];
+              $units = $member["gpa_data"]["units"];
+              $gpa = $units > 0 ? $points / $units : 0;
+
+              echo "<tr>";
+              echo "<td>{$member["name"]}</td>";
+              echo "<td>$points</td>";
+              echo "<td>$units</td>";
+              echo "<td><strong>" . number_format($gpa, 2) . "</strong></td>";
+              echo "</tr>";
+            }
+            echo "</table>";
+            break;
+
+          // --- TAB 4: PERSONAL DETAILS ---
+          case "details":
+            echo "<h2>Personal Details</h2>";
+
+            foreach ($group_members as $member) {
+              echo "<div class='card'>";
+              // Requirement: Name, Blood, State, Phone, Hobbies
+              echo "<h3>{$member["name"]}</h3>";
+              echo "<p><span class='label'>Blood Group:</span> {$member["blood"]}</p>";
+              echo "<p><span class='label'>State of Origin:</span> {$member["State"]}</p>";
+              echo "<p><span class='label'>Phone Number:</span> {$member["phone"]}</p>";
+              echo "<p><span class='label'>Hobbies:</span> {$member["hobbies"]}</p>";
+              echo "</div>";
+            }
+            break;
+
+          default:
+            echo "<p>Page not found.</p>";
+        } ?>
     </div>
 
 </body>
